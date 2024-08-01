@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "google" {
-  credentials = file("gcp_key.json")
+#  credentials = file("gcp_key.json")
 
   project = "digger-landing"
   region  = "us-central1"
